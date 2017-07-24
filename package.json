@@ -1,0 +1,34 @@
+{
+  "name": "tstamp",
+  "version": "1.0.0",
+  "description": "\"# tstamp\"",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2",
+    "node-datetime": "^1.0.0",
+    "google-auth-library": "^0.10.0",
+    "open": "^0.0.5",
+    "openurl": "^1.1.1",
+    "googleapis": "^19.0.0",
+    "pdf-text": "^0.4.0",
+    "socket.io": "^2.0.1",
+    "request": "^2.81.0",
+    "readline-sync": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinaygb665/tstamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinaygb665/tstamp/issues"
+  },
+  "homepage": "https://github.com/Vinaygb665/tstamp#readme"
+}

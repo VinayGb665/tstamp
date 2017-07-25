@@ -7,7 +7,7 @@ function isString(value) {return typeof value === 'string';}
 function addMinutes(date, minutes) {
     return new Date(date.getTime() - minutes*60000);
 }
- app.listen(8080);
+ app.listen(80);
  app.get('/:date', function(req, res) {
 
   const query = req.query;// query = {sex:"female"}
